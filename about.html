@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About FediPay — The Missing Piece of the Fediverse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">FediPay</a>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog-post-1.html">Blog</a></li>
+                <li><a href="https://docs.fedipay.net" target="_blank">Docs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="container content-page">
+            <h1>The Missing Piece of the Fediverse</h1>
+
+            <section>
+                <h2>Our Mission</h2>
+                <p>The Fediverse has solved the problem of <strong>communication</strong> without central control. We have Mastodon for microblogging, PeerTube for video, and Lemmy for community. But we haven't yet solved the problem of <strong>compensation</strong> without central control.</p>
+                <p>FediPay was born from a simple question: <em>Why do we use decentralized social media, but still rely on centralized, fee-heavy platforms to pay the people who make it?</em></p>
+                <p>FediPay is a federated, user-owned tool designed to bridge that gap. It allows you to reward creators, developers, and artists based on your actual consumption, without a middleman taking a massive cut or an algorithm deciding who is "worthy" of being seen.</p>
+            </section>
+
+            <section>
+                <h2>The Problem: The "Platform Tax"</h2>
+                <p>Currently, if you want to support a creator, you usually have to join a third-party platform. These platforms:</p>
+                <ul>
+                    <li><strong>Take a Cut:</strong> Often 5% to 15% of your contribution goes to the platform, not the creator.</li>
+                    <li><strong>Control the Data:</strong> They own the relationship between the fan and the creator.</li>
+                    <li><strong>Enforce Rules:</strong> They can de-platform creators or change the rules of monetization overnight.</li>
+                    <li><strong>Fragment Support:</strong> You end up with ten different subscriptions on ten different sites.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>The FediPay Solution: Patronage as a Protocol</h2>
+                <p>FediPay isn't a "platform." It's a set of tools that you own.</p>
+                <ol>
+                    <li><strong>User-Centric:</strong> You decide your monthly budget. You control your data. Your browsing history stays on your hardware or your private server.</li>
+                    <li><strong>Usage-Based:</strong> Instead of guessing who to support, FediPay tracks who you actually visit, read, and watch. It then suggests a fair percentage of your budget for each creator.</li>
+                    <li><strong>Federated:</strong> Just like email or Mastodon, you can host your own FediPay server or join a community-run instance. There is no "CEO of FediPay" who can shut it down.</li>
+                    <li><strong>FOSS-Friendly:</strong> We don't just support "content creators." FediPay is designed to help you reward the developers of the Free and Open Source Software (FOSS) you use every day—from your Linux distro to your favorite image editor.</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>How It Works (The Simple Version)</h2>
+                <ul>
+                    <li><strong>The Sensor:</strong> You install a browser extension or use a FediPay-compatible app. It privately notes when you engage with a creator or a project.</li>
+                    <li><strong>The Brain:</strong> Your personal FediPay server aggregates this data. At the end of the month, it shows you a "Payout Plan."</li>
+                    <li><strong>The Reward:</strong> You approve the plan, and the funds are routed to the creators. (We are currently in the "Allocation Phase," focusing on getting the tracking and math right before we move to automated payments).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Built for the Long Haul</h2>
+                <p>FediPay is a Free Open Source Software project. We believe that the infrastructure for paying creators should be a public good, not a private monopoly.</p>
+                <p>We are building this for the artists on Mastodon, the filmmakers on PeerTube, the podcasters on the open web, and the developers on GitHub/GitLab who keep the digital world spinning.</p>
+                <p>
+                    <a href="https://github.com/cclambie/fedipay-website" target="_blank">GitHub Repo</a> • 
+                    <a href="https://docs.fedipay.net" target="_blank">Documentation</a> • 
+                    <a href="https://theforkiverse.com/@fedipay" target="_blank">Follow us on the Fediverse</a>
+                </p>
+            </section>
+
+            <aside class="status-box">
+                <h3>Current Status: Alpha (Allocation Phase)</h3>
+                <p>We are currently building the "Sensor" (Browser Extension) and the "Brain" (Server). In this phase, FediPay helps you calculate <em>who</em> to pay. Actual money transfers are still handled manually or via existing links on creator profiles. Automated federated settlement is on our roadmap.</p>
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 FediPay. Built for the Fediverse, by the Fediverse.</p>
+            <p>
+                <a href="https://github.com/cclambie/fedipay-website" target="_blank">GitHub</a> • 
+                <a href="https://theforkiverse.com/@fedipay" target="_blank">Fediverse</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
